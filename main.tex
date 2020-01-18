@@ -1,0 +1,29 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Neuropixels Application}
+\author{thomas.sainsbury }
+\date{January 2020}
+
+\begin{document}
+
+\setlength\parindent{0pt}
+\parskip 0.5 cm 
+\maketitle
+
+\textbf{Do you have a firm plan to use Neuropixels probes yourself in the next 12 months? If so, what is the experiment you would like to use them for? If not, what is a dream experiment you would like to do with them? (3500 char.) }
+
+Motor actions need to be continually adjusted to counter perturbations in ever changing environments. Even the simple act of picking up a cup of coffee requires the simultaneous adjustment of multiple muscle groups in order to compensate for the newly added weight, generating smooth movements that do not spill the liquid. From human behavioural experiments there is increasing evidence that many aspects of motor adaptation may be driven by sensory prediction errors. These errors, signalling the mismatch between the expected movement and actual movement, are thought to be used as a "teaching signal" that update a motor memory (or internal model) of the task, allowing for movement to be corrected (refereed to as a internal state estimator model). However, due to the inability to record from the human brain with single neuron resolution, an understanding of how this computation may be implemented by neurons within the brain is still lacking.
+
+Recently Mathis et al. (2017) developed a mouse model to study motor adaptation where forelimb paw trajectories can be disturbed through the application of a force field. Over the course of multiple force field trails mice were found to increasingly compensate their motor output by preemptively steering prior to the force field application, applying increased counter force reducing lateral displacement and showed an aftereffect of over steering after the force field was removed (washout). These features, like human behaviour, were consistent with an internal state estimator model. Importantly, photoinhibition of primary somatosensory cortex (S1) can abolish motor learning but leaves the already learnt motor action intact. This suggests that S1 may encode (or relay) an error signal and that this error signal is used to update an internal model of the task stored in another region of the brain.
+
+S1 participates in functional loops with the basal ganglia and motor cortex while receiving sensory input from the thalamus. To understand the relative contributions of these regions to motor adaptation we aim to implant two neuropixel probes: one through S1 and the thalamus and the second through motor cortex and the striatum. This will enable us to simultaneously record from hundreds of neurons distributed across cortical and subcortical regions with a temporal resolution that matches the timescale of minor adjustments in the behaviour. Firstly, tracking the 3D kinematics of the forelimb using DeepLacut in the baseline condition (prior to force field application) will allow us to understand how these neuronal populations encode different aspects of the motor action. Secondly, we aim to identify neuronal populations encoding prospective sensory error signals.  These neurons are likely to fire highly when the error between expected and actual movement is large, even if the stimulus is low, such as in washout trails.  Furthermore, this activity should also be predictive of the extent of learning which could be measured through the ability to decode alterations in behaviour in future tasks from neural activity in the previous trails. Finally, photoinhibition of either S1 or M1 during recording would give an understanding of how these signals are shared between different brain regions and isolate bottom-up peripheral feedback propagating to the cortex via the thalamus. These recording therefore would help to reveal the neural mechanisms underlying motor adaptation, an important feature of motor learning that is crucial for generating appropriate behavioural responses.
+
+
+
+
+
+
+
+
+\end{document}
